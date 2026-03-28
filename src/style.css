@@ -1,0 +1,73 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+nav{
+    background-color: black;
+    padding: 20px;
+    color: white;
+}
+li,h1{
+    display: inline;
+}
+ul{
+    margin-left: 60%;
+    display: inline;
+}
+li {
+    color: grey;
+    text-decoration: none;
+}
+li:hover{
+    color: white;
+}
+.searchbar {
+    text-align: center;
+    padding: 30px;
+}
+input{
+    width: 70%;
+    padding: 10px;
+}
+.box:hover{
+    border-color: black;
+    background-color: black;
+    color: white;
+}
+
+/*Step 25 select products class and set alignment to center 
+and padding */
+.products{
+    text-align: center;
+    padding: 30px;
+    gap: 15px;
+}
+.box{
+    border: solid black 2px;
+    text-align: center;
+    width: 220px;
+    display: inline-block;
+}
+img{
+    width: 220px;
+}
+.about p{
+    padding: 20px;
+    font-size: larger;
+}
+.contact{
+    padding: 20px;
+
+}
+.footerr{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
